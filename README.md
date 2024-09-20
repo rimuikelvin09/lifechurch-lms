@@ -1,6 +1,6 @@
-# Nahhas LMS Website
+# Lifechurch LMS Website
 
-This is a Learning Management System (LMS) website built with Next.js. The purpose of this project is to provide a comprehensive platform for online education, tailored for the Syrian community.
+This is a Learning Management System (LMS) website built with Next.js. The purpose of this project is to provide a comprehensive platform for online education, tailored for the Lifechurch Limuru.
 
 ## Demo Video
 
@@ -9,6 +9,7 @@ Check out the demo video for this project on YouTube: [Demo Video](https://youtu
 ---
 
 ## Table of Contents
+
 - [Features](#features)
 - [Tech Stack](#tech-stack)
 - [Installation](#installation)
@@ -17,6 +18,7 @@ Check out the demo video for this project on YouTube: [Demo Video](https://youtu
 - [License](#license)
 
 ## Features
+
 - Browse & Filter Courses
 - Purchase Courses using Stripe
 - NoSQL database using Mongodb
@@ -34,6 +36,7 @@ Check out the demo video for this project on YouTube: [Demo Video](https://youtu
 - Rich text editor for chapter description
 
 ## Tech Stack
+
 - Framework: Next.js 14
 - Database: Prisma
 - Authentication: Clerk
@@ -47,30 +50,37 @@ Check out the demo video for this project on YouTube: [Demo Video](https://youtu
 ## Installation
 
 ### Prerequisites
+
 Make sure you have the following installed:
+
 - Node.js
 - npm or yarn
 - Git
 
 ### Clone the Repository
+
 To clone the project, run the following command in your terminal:
 
 ```bash
-git clone https://github.com/AbdulrahmanNahhas/nahhas-lms.git
+git clone https://github.com/rimuikelvin09/lifechurch-lms
 ```
 
 ### Navigate to the Project Directory
+
 ```bash
-cd nahhas-lms
+cd lifechurch-lms
 ```
 
 ### Install Dependencies
 
 Using npm:
+
 ```bash
 npm install
 ```
+
 Or using yarn:
+
 ```bash
 yarn install
 ```
@@ -78,6 +88,7 @@ yarn install
 ### Set Up Environment Variables
 
 Create a .env.local file in the root directory and add your environment variables. Here is an example:
+
 ```bash
 NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=
 CLERK_SECRET_KEY=
@@ -100,15 +111,19 @@ NEXT_PUBLIC_APP_URL=http://localhost:3000
 STRIPE_API_KEY=
 STRIPE_WEBHOOK_SECRET=
 ```
+
 You can also find an example environment file in .env.example.
 
 ### Start the Development Server
 
 Using npm:
+
 ```bash
 npm run dev
 ```
+
 Or using yarn:
+
 ```bash
 yarn dev
 ```
@@ -121,7 +136,7 @@ To use the LMS website, navigate to [http://localhost:3000](http://localhost:300
 
 ## Contributing
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes. 
+Contributions are welcome! Please fork the repository and create a pull request with your changes.
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -130,4 +145,5 @@ Contributions are welcome! Please fork the repository and create a pull request 
 5. Open a Pull Request
 
 ## License
+
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
